@@ -1,38 +1,5 @@
 
 
-## Project Setup
-
-
-Install [uv](https://docs.astral.sh/uv/getting-started/installation/) 
-```bash
-curl -LsSf https://astral.sh/uv/install.sh | sh
-```
-
-### Install dependencies
-
-```bash
-# Create virtual environment and install all dependencies from pyproject.toml
-uv sync
-```
-
-### Run the Data Processing & Model Training Pipelines
-
-This pipeline downloads the dataset, performs data cleaning, preprocessing, and feature engineering, trains the model, and stores all generated artifacts in their respective directories. The outputs are then ready to support reporting and visualization.
-
-```bash
-uv run src/pipelines/run_all.py
-```
-
-### Launch Streamlit dashboard
-
-Run the following command to start the dashboard locally
-
-```bash
-uv run streamlit run app/main.py
-```
-
-Alternatively, you can explore the deployed version [here](https://dsteam2bankmarketing-omztqumgpewsyphbyksupa.streamlit.app)
-
 ## Exploratory Data Analysis (EDA)
 
 Exploratory Data Analysis (EDA) was conducted to understand how **customer demographics, financial characteristics, and campaign variables influence the likelihood of subscribing to a term deposit**. The goal of this analysis is not only to identify statistical relationships, but also to derive **actionable insights that support marketing targeting decisions.**
