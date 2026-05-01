@@ -1,7 +1,6 @@
 # 📊 Bank Marketing Campaign Analysis
 
 
-## Data Science Institute - Cohort 8 - DS Team 2 - Final Project
 <p align="left">
 <a href="https://dsteam2bankmarketing-omztqumgpewsyphbyksupa.streamlit.app">
 <img src="https://img.shields.io/badge/Live%20Demo-Open%20Streamlit%20App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
@@ -805,32 +804,3 @@ The analysis highlights that customers with **stronger financial profiles, fewer
 
 Together, these approaches support a shift from **broad, high-volume outreach toward more targeted and data-driven marketing strategies**, helping improve campaign efficiency and reduce unnecessary contacts. The results are presented through an **interactive Streamlit dashboard**, which allows stakeholders to explore segmentation insights and model outputs in a user-friendly way.
 
-## Limitations & Future Work
-
-While this project provides useful insights for marketing targeting, several opportunities exist to improve and extend the analysis.
-
-- **Model improvement** - The current implementation uses logistic regression for interpretability and customer ranking. Future work could explore more advanced models such as **Random Forest, Gradient Boosting (XGBoost/LightGBM)**, or **Neural Networks** to capture more complex patterns in customer behavior.
-
-- **Class imbalance handling** - Because the dataset contains far fewer subscribers than non-subscribers, future work could apply techniques such as **SMOTE**, **undersampling, or precision-recall optimization** to improve the model’s ability to identify potential subscribers.
-
-- **Richer data features** - Additional variables such as **income, geographic information, digital engagement behavior, or customer lifetime value** could improve predictive performance and enable deeper segmentation insights.
-
-- **Lightweight CI/CD integration** - Future work could include adding **simple CI pipelines** (e.g., GitHub Actions) to **automatically test data pipelines, validate model training, and ensure the Streamlit dashboard** continues to run after code updates.
-
-These improvements would help transform the current analysis into a more scalable marketing analytics system capable of supporting continuous campaign optimization.
-
-# Team Videos
- | Name | Links |
- | --- | --- |
- | Vinh-phuc (Vince) Nguyen | [Video Link](https://drive.google.com/file/d/1vOWN-QcuqwxCfk-j6LtCNiNw64hCOVs3/view) |
- | Cookiejars8 | [Video Link](https://drive.google.com/drive/folders/1ZMKaL5Wt-paKmv6_XxYwoKOefxINcQXF) |
- | Kateryna Makieieva | [Video Link](https://drive.google.com/file/d/1DHBxbKdbTPz_CL6w-p0iqL5dLxmBBqwH/view?usp=sharing)|
- | kerensa-wong | [Video Link](https://drive.google.com/file/d/1vvHW3TirXDJPbQQtiiN9TbBgZ8cSanOX/view?usp=drive_link)| 
- | Lanlan Li | [Video Link](https://drive.google.com/file/d/1jXimNCQlhScW2aPokX7pAl6hKu8LPDEE/view?usp=sharing) |
-
-
-## Credits
-
-* Team: DS Team 2 - University of Toronto, Data Sciences Institute
-* Dataset: UC Irvine Machine Learning Repository
-* Contributors: All team members
