@@ -2,10 +2,8 @@
 
 ## Project Setup
 
-### Prerequisites
 
-Install [uv](https://docs.astral.sh/uv/getting-started/installation/) if you don't have it:
-
+Install [uv](https://docs.astral.sh/uv/getting-started/installation/) 
 ```bash
 curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
